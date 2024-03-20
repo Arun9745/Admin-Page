@@ -17,7 +17,7 @@ function Side() {
           <Route path='/products' component={<Products />} />
           </Routes>
       </Router> */}
-      <h1>Hiiiiiii</h1>
+     
     </>
   );
 }

@@ -60,7 +60,7 @@ function Adding() {
           </div>
         ))}
       </div>
-      <div className="output">
+      {/* <div className="output">
         <h2>Output</h2>
         {serviceList &&
           serviceList.map((singleService, index) => (
@@ -68,7 +68,7 @@ function Adding() {
               {singleService.service && <li>{singleService.service}</li>}
             </ul>
           ))}
-      </div>
+      </div> */}
     </form>
   );
 }
