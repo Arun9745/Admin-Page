@@ -20,7 +20,7 @@ function
       {/* <Survey /> */}
       <Routes>
       {/* <Route path='/' exact component={<Home />} /> */}
-          <Route path='/Adding' component={<Adding />} />
+          <Route path='/Adding' component={<Adding />} /> 
           {/* <Route path='/questions' component={<Questions />} /> */}
           </Routes>
    </Router>

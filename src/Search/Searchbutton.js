@@ -28,7 +28,7 @@ const SearchButton = ({ onSearch }) => {
         Create new  
       </button></NavLink>
     
-      </div>
+      </div>  
       
     </div>
   );
