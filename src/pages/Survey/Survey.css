@@ -1,0 +1,190 @@
+.table__body {
+    /* position: relative; */
+    top: 100px;
+    left: 300px;
+    width: 1000px;
+    height: 450px;
+    background-color: #FFFF;
+
+    margin: .8rem auto;
+    border-radius: .6rem;
+
+    overflow: auto;
+    overflow: overlay;
+    position: absolute;
+}
+
+
+.table__body::-webkit-scrollbar{
+    width: 0px;
+    height: 20px;
+}
+
+.table__body::-webkit-scrollbar-thumb{
+    border-radius: 5rem;
+    background-color: rgba(224, 228, 231, 1);
+    visibility: hidden;
+}
+
+.table__body:hover::-webkit-scrollbar-thumb{ 
+    visibility: visible;
+}
+
+
+table {
+    width: 1000px;
+    
+    border-collapse: collapse;
+}
+
+
+/* td img {
+    width: 36px;
+    height: 36px;
+    margin-right: .5rem;
+    border-radius: 50%;
+
+    vertical-align: middle;
+} */
+
+.tr-survey ,th,td {
+    border-collapse: collapse;
+    padding: 1rem !important;
+    text-align: left;
+}
+
+thead th {
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 30px;
+    background-color:   rgba(224, 228, 231, 1);
+    
+    cursor: pointer;
+    text-transform: capitalize;
+    /* position: absolute; */
+}
+
+tbody{
+    /* position: relative; */
+    border-collapse: collapse;
+    height: 0px;
+   top: 0px;
+  overflow-y: auto;
+}
+
+tbody tr{
+   width: 100px;
+   height: 10px;
+   background-color: #e4159f;
+    transition: border-color 0.3s ease;
+}
+
+tbody tr:hover{
+     border: 1px solid rgb(26, 26, 221);
+}
+
+
+
+tbody tr:nth-child(even) {
+    background-color: #FFFF;
+    height: 10px;
+}
+
+tbody tr {
+    --delay: .1s;
+    transition: .5s ease-in-out var, background-color 1s;
+    
+}
+
+/* tbody tr.hide {
+    opacity: 0;
+    transform: translateX(100%);
+} */
+
+
+
+/* tbody tr td,
+tbody tr td p,
+tbody tr td img {
+    transition: .2s ease-in-out .5s;
+}
+
+tbody tr.hide td,
+tbody tr.hide td p {
+    padding: 0;
+    font: 0 / 0 sans-serif;
+    transition: .2s ease-in-out .5s;
+}
+
+tbody tr.hide td img {
+    width: 0;
+    height: 10px;
+    transition: .2s ease-in-out .5s;
+} */
+
+.status {
+    padding: 0;
+    border-radius: 2rem;
+    text-align: center;
+}
+.nav-link{
+    text-decoration: none;
+}
+
+.nav-link.statusdelivered {
+    background-color: #86e49d;
+    color: #006b21;
+    text-decoration: none;
+}
+.nav-link.statuscancelled {
+    background-color: #d893a3;
+    color: #b30021;
+}
+
+.nav-link.statuspending {
+    background-color: #ebc474;
+}
+
+.nav-link.statusshipped {
+    background-color: #6fcaea;
+    
+}
+
+/* table tr{
+  position: relative;
+  margin-top: 10px;
+}  */
+
+ /* .tr-spacing {
+  border: 0px solid #FFFF;
+  border-radius: 10px;
+  margin-bottom: 10px; 
+  padding: 0px;
+  height:10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 5px 4px rgba(122, 243, 148, 0.1);  */
+  
+
+/* tbody .tr-spacing{
+    width: 1000px;
+    height: 10px;
+} */
+/* .small-box {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    border: none;
+    background-color:#d3cbcde5;
+    margin: auto;
+    top:35px;
+    left: 2px;
+  } */
+  .table-space {
+    margin-bottom: 20px;
+    background-color: #C7E5C9 ;
+
+}
+
+
+

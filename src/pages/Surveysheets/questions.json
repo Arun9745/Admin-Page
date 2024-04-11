@@ -1,0 +1,54 @@
+[
+    {
+      "question": "What is the capital of France?",
+      "delimiter": "||",
+      "options": ["Paris", "London", "Berlin", "Rome"],
+      "correctAnswer": "Paris"
+    },
+    {
+      "question": "Which planet is known as the Red Planet?",
+      "options": ["Mars", "Venus", "Jupiter", "Saturn"],
+      "correctAnswer": "Mars"
+    },
+    {
+      "question": "Who wrote 'To Kill a Mockingbird'?",
+      "options": ["Harper Lee", "Mark Twain", "J.K. Rowling", "Ernest Hemingway"],
+      "correctAnswer": "Harper Lee"
+    },
+    {
+      "question": "What is the largest mammal?",
+      "options": ["Elephant", "Blue Whale", "Giraffe", "Hippopotamus"],
+      "correctAnswer": "Blue Whale"
+    },
+    {
+      "question": "Which country is the largest by land area?",
+      "options": ["Russia", "China", "Canada", "United States"],
+      "correctAnswer": "Russia"
+    },
+    {
+      "question": "Who painted the Mona Lisa?",
+      "options": ["Leonardo da Vinci", "Vincent van Gogh", "Pablo Picasso", "Michelangelo"],
+      "correctAnswer": "Leonardo da Vinci"
+    },
+    {
+      "question": "What is the chemical symbol for water?",
+      "options": ["H2O", "CO2", "NaCl", "O2"],
+      "correctAnswer": "H2O"
+    },
+    {
+      "question": "What is the tallest mountain in the world?",
+      "options": ["Mount Everest", "K2", "Kangchenjunga", "Lhotse"],
+      "correctAnswer": "Mount Everest"
+    },
+    {
+      "question": "Who is credited with discovering gravity?",
+      "options": ["Isaac Newton", "Albert Einstein", "Galileo Galilei", "Nikola Tesla"],
+      "correctAnswer": "Isaac Newton"
+    },
+    {
+      "question": "Which gas do plants absorb for photosynthesis?",
+      "options": ["Carbon dioxide", "Oxygen", "Nitrogen", "Hydrogen"],
+      "correctAnswer": "Carbon dioxide"
+    }
+  ]
+  

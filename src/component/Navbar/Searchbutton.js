@@ -10,28 +10,34 @@ const SearchButton = ({ onSearch }) => {
     setQuery(event.target.value);
   };
 
-  const handleSearchClick = () => {      
-    onSearch(query);
-  };
+  // const handleSearchClick = () => {      
+  //   onSearch(query);
+  // };
 
   return (
+    <div class='top-nav'>
     <div className="search-container">
       <input
         type="text"
         value={query}
         onChange={handleInputChange}
         className="search-input"
-        placeholder="Check your Survey..."
-      />
+        placeholder="Search"
+      /> 
+      
       <div>
-      <NavLink to="/Adding"><button className="search-button" onClick={onsubmit} >
+      <NavLink to="/Newsurvey"><button className="search-button" type='Submit' >
         Create new  
       </button></NavLink>
     
       </div>  
+      </div>
       
-    </div>
-  );
-};
 
-export default SearchButton;
+   
+     
+     </div>
+  );
+}; 
+
+export default SearchButton;  

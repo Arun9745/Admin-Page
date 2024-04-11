@@ -1,0 +1,89 @@
+body{
+    margin:0;
+    padding: 0;
+    }
+    .sheet{
+        width: 2000px;
+        height: 40px;
+        left:250px;
+        top:-30px;
+        gap: 0px;
+        color: black;
+        opacity: 0px;
+        background-color:  rgba(224, 228, 231, 1);
+        ;
+        position: relative;
+    
+    }
+    .app{
+        position: relative;
+        left: 300px;
+    }
+    .question-box {
+        border: 1px solid #ccc;
+        width: 1500px;
+        background-color:rgba(255, 255, 255, 1) ;
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 20px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      }
+      
+     
+      
+      .question-card h3 {
+        margin-bottom: 10px;
+      }
+      
+      .question-card ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      
+      .question-card ul li {
+        margin-bottom: 5px;
+      }
+      .circle-box {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border: 1px solid #ccc;
+        border-radius: 50px; /* Makes it a circle */
+        margin-right: 10px; /* Adjust spacing as needed */
+      }
+      
+      /* Additional styles for when checkbox is checked */
+      input[type="checkbox"]:checked + .circle-box {
+        background-color: #007bff; /* Change color when checked */
+        border-color: #007bff; /* Change border color when checked */
+      }
+      .para{
+        color: black;
+        position: relative;
+        left:300px;
+        top:0px;
+      }
+      .edit-survey{
+        width: 150px;
+        height: 50px;
+        font-size: 16px;
+        position: relative;
+        background-color: rgba(39, 46, 56, 1);
+        color: white;
+        border-radius: 10px;
+        border: none; 
+        top:-50px;
+        left:1350px;
+      }
+      .small-paragraph {
+        width: 1500px; 
+        font-size: large;
+        position: relative;
+        top:-30px;
+      }
+      .down-paragraph{
+        width: 1500px; 
+        font-size: large;
+        position: relative;
+        left:300px;
+      }

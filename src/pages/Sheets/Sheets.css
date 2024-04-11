@@ -1,0 +1,100 @@
+body{
+margin:0;
+padding: 0;
+background-color: #fff;
+}
+.main{
+    width: 2000px;
+    height: 40px;
+    left:250px;
+    top:-25px;
+    gap: 0px;
+    opacity: 0px;
+    background-color:  rgba(224, 228, 231, 1);
+    ;
+    position: relative;
+
+}
+.second-bar{
+    width: 1000px;
+    height: 50px;
+    position: absolute;
+    left:300px;
+    top:20px;
+    border-radius: 10px;
+    background-color: #fff;
+    position: relative;
+    
+}
+.download{
+    position: absolute;
+    left:600px;
+    top:0px;
+    background-color: transparent;
+    border:1px solid;
+    border-radius: 5px;
+    font-size: 15px;
+    color: black;
+    cursor: pointer;
+}
+.view{
+    position: absolute;
+    left:400px;
+    top:0px;
+    background-color: transparent;
+    border:1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+    font-size: 15px;
+
+}
+.vshe{
+    position: absolute;
+    top:0px;
+    left:850px;
+    border:none;
+    background-color:rgba(39, 46, 56, 1) ;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+} 
+
+.first-card{
+    position: absolute;
+   width: 1000px;
+   height: 418px;
+   top: 50px;
+   left: 300px;
+   background-color: #fff;
+   gap: 10px;
+   border-radius: 10px ;
+   opacity: 0px;
+   position: relative;
+   border: 1px solid black;
+}
+.graph {
+   
+    margin: 20px auto;
+    font-size: large;
+    
+  }
+  
+ 
+  
+  
+  .response{
+    position: absolute;
+    width: 118px;
+height: 30px;
+top: -20px;
+left: 900px;
+gap: 0px;
+opacity: 0px;
+
+  }
+  .first-question{
+    position: absolute;
+
+  }

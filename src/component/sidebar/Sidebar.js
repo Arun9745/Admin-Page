@@ -1,12 +1,14 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'; 
 import * as FaIcons from 'react-icons/fa';
-import * as AiIcons from 'react-icons/ai';
+// import * as AiIcons from 'react-icons/ai';
 import { Link } from 'react-router-dom';
-import { SidebarData } from './SidebarData';
-import './Navbar.css';
-import { IconContext } from 'react-icons';
 
-function Navbar() {
+import './Sidebar.css';
+import { IconContext } from 'react-icons';
+import * as IoIcons from 'react-icons/io';
+import { SidebarData } from './SidebarData';
+
+function Sidebar() {
   const [sidebar, setSidebar] = useState(true);
 
   const showSidebar = () => setSidebar(!sidebar);
@@ -25,19 +27,27 @@ function Navbar() {
               <Link to='#' className='menu-bars'>
                 {/* <AiIcons.AiOutlineClose /> */}
               </Link>
-              <h1 class='side-heading'>Survey</h1>
+              <IoIcons.IoIosContact size={40} className="left-icon" />
+              <h1 class='side-heading'>Admin</h1>
+              <h1><button class='side-down'>Logout <IoIcons.IoIosExit /></button></h1>
             </li>
             {SidebarData.map((item, index) => {
               return (
+                
+                
                 <li key={index} className={item.cName}>
                   <Link to={item.path}>
-                    {item.icon}
-                    <span>{item.title}</span>
+                    {item.icon} 
+                    <a href={item.url}>{ item.title}</a>
                     
                   </Link>
                 </li>
-              );
-            })}
+
+            
+        
+        );
+              })}; 
+            
           </ul>
         </nav>
       </IconContext.Provider>
@@ -45,4 +55,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default Sidebar;

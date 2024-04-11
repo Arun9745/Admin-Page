@@ -1,0 +1,12 @@
+.layout-container {
+    display: flex;
+    height: 50vh;
+    /* width: max-content; */
+}
+ .children-container{
+    /* margin-left: 50px; */
+   /* padding:20px;
+   width: 85vw;
+   height: 91vh;
+   overflow-y: scroll; */
+}
