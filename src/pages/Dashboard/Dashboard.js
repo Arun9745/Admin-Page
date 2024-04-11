@@ -3,7 +3,7 @@ import './Dashboard.css'; // Ensure you have this CSS file for styling
 import tableData from './tableData.json';
 
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
-import Piechart from './Piechart';
+
 
 // Register ChartJS components
 ChartJS.register(ArcElement, Tooltip, Legend);// Import necessary pieces from chart.js
@@ -79,7 +79,7 @@ const Dashboard = () => {
 
       {/* Pie Chart Section */}
      <div>
-      <Piechart />
+     
      </div>
     </div>
   );
